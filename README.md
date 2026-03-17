@@ -208,16 +208,6 @@ cnn-lstm-har/
 
 ---
 
-## 🎓 Learning Outcomes
-
-After completing this project, you will understand:
-
-1. ✅ **RNN Fundamentals** (Lecture 4, Slide 1-2)
-2. ✅ **LSTM Architecture & Gates** (Slide 3-5)
-3. ✅ **CNN-LSTM Hybrid Design** (Slide 11-12)
-4. ✅ **Sequential Data Preprocessing**
-5. ✅ **Model Evaluation & Visualization**
-6. ✅ **Connection between Theory and Implementation**
 
 ---
 
