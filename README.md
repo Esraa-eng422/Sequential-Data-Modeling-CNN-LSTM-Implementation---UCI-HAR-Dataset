@@ -124,7 +124,7 @@ jupyter notebook HAR_CNN_LSTM.ipynb
 
 ---
 
-## 📈 Expected Results
+## 📈  Results
 
 | Metric | Expected Value |
 |--------|---------------|
@@ -146,10 +146,8 @@ jupyter notebook HAR_CNN_LSTM.ipynb
 
 ---
 
-## 🔬 Theoretical Foundation (Lecture 4)
 
-### 1. Why CNN-LSTM? (Slide 11)
-
+### 1. Why CNN-LSTM? 
 | Component | Role | Benefit |
 |-----------|------|---------|
 | **CNN** | Extracts spatial features from sensor data | Detects local patterns in 561 features |
@@ -161,7 +159,7 @@ jupyter notebook HAR_CNN_LSTM.ipynb
 - ✅ **Captures Long-term Dependencies**
 - ✅ **Uses 3 Gates**: Forget, Input, Output
 
-### 3. LSTM vs GRU (Slide 5)
+### 3. LSTM vs GRU 
 
 | Feature | LSTM | GRU |
 |---------|------|-----|
@@ -170,8 +168,7 @@ jupyter notebook HAR_CNN_LSTM.ipynb
 | Performance | Better on complex sequences | Faster training |
 | **Our Choice** | ✅ LSTM | - |
 
-### 4. Why Not Transformers? (Slide 5)
-
+### 4. Why Not Transformers? 
 - Transformers use **Self-Attention** for parallel processing
 - For HAR task, CNN-LSTM is more suitable because:
   - Sensor data has clear **local patterns** (CNN excels)
@@ -261,4 +258,3 @@ Hidden State:    hₜ = (1-zₜ)·hₜ₋₁ + zₜ·h̃ₜ
 
 ---
 
-## 📚 References
